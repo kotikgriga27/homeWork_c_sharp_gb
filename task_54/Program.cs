@@ -1,4 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿// Задача 54: Задайте двумерный массив. Напишите программу, которая упорядочит по убыванию элементы каждой строки двумерного массива.
 
 Console.WriteLine($"\nВведите размер массива m x n и диапазон случайных значений:");
 int m = InputNumbers("Введите m: ");
@@ -31,7 +31,7 @@ void OrderArrayLines(int[,] array) {
 int InputNumbers(string input) {
     Console.Write(input);
     int output = Convert.ToInt32(Console.ReadLine());
-     return output;
+    return output;
 }
 
 void CreateArray(int[,] array) {
