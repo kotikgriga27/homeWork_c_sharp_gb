@@ -7,10 +7,8 @@ Console.Write("Введите начальное число N: ");
 int numberN = int.Parse(Console.ReadLine());
 
 //Метод нахождения суммы натуральных элементов в промежутке от M до N
-void GapNumberSum (int numberM, int numberN, int sum)
-{
-    if (numberM > numberN) 
-    {
+void GapNumberSum (int numberM, int numberN, int sum) {
+    if (numberM > numberN) {
         Console.WriteLine($"Сумма натуральных элементов в промежутке от M до N -> {sum}"); 
         return;
     }
